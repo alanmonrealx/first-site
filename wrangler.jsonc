@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "hello-alan",
+  "name": "first-site",
   "main": "src/index.js",
   "compatibility_date": "2026-09-18",
   "workers_dev": true
