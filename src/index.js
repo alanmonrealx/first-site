@@ -4,7 +4,7 @@ const html = `<!doctype html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101820">
-  <title>Hello, Alan!</title>
+  <title>Hello, Kevin!</title>
   <style>
     * { box-sizing: border-box; }
     body { margin: 0; min-height: 100svh; display: grid; place-items: center; padding: 24px; background: #101820; color: #f7f5ef; font-family: system-ui, sans-serif; }
@@ -19,9 +19,9 @@ const html = `<!doctype html>
 <body>
   <main>
     <div class="eyebrow">A little corner of the internet</div>
-    <h1>Hello,<br><span>Alan!</span></h1>
+    <h1>Hello,<br><span>Kevin!</span></h1>
     <p>Big ideas start with a simple hello.<br>Welcome to my first Cloudflare Worker app.</p>
-    <footer>Made for Alan Monreal &middot; Powered by Cloudflare Workers</footer>
+    <footer>Made for Kevin Monreal &middot; Powered by Cloudflare Workers</footer>
   </main>
 </body>
 </html>`;
