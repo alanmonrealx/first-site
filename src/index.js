@@ -1,3 +1,5 @@
+import { discord } from "./discord.js";
+
 const html = `<!doctype html>
 <html lang="en">
 <head>
@@ -27,7 +29,8 @@ const html = `<!doctype html>
 </html>`;
 
 export default {
-  async fetch(request) {
+  async fetch(request, env = {}) {
+    if (new URL(request.url).pathname === "/interactions") return discord(request, env);
     if (request.method !== "GET" && request.method !== "HEAD") {
       return new Response("Method not allowed", { status: 405, headers: { Allow: "GET, HEAD" } });
     }
